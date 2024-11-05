@@ -112,3 +112,24 @@ header {
     min-height: 900px;
     margin: 0 auto;
 }
+
+#dark-section{
+    background-color: #23272A;
+}
+
+#column-box{
+    display: flex;
+    min-height: 500px;
+}
+
+.large-column{
+    width: 30%;
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+
+.column{
+    width: calc(70% / 4);
+    background-color: #20B2AA;
+    border: 1px dashed black;
+}
