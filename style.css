@@ -12,8 +12,10 @@
 }
 
 section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    border: 1px solid black;
+    min-height: 616.6px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 /*HEADER*/
@@ -52,11 +54,30 @@ header {
     background-color: #00008B;
     min-height: 500px;
     padding: 60px 0;
+    
 }
 
-#hero{
+#hero {
     max-width: 900px;
     min-height: 400px;
     background-color: #EE82EE;
+    border: 1px dashed black;
+    margin: 0 auto;
+}
+
+#box-one {
+    display: flex;
+    min-height: 500px;
+}
+
+.left-side{
+    width: 60%;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.right-side{
+    width: 40%;
+    background-color: #FFC0CB;
     border: 1px dashed black;
 }
