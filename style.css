@@ -1,7 +1,62 @@
 /*RESET*/
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/*GENERAL*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*HEADER*/
+header {
+    background-color: #ADD8E6;
+    padding: 15px 0 10px;
+
+}
+
+#header-top{
+    display: flex;
+    background-color: #DAA520;
+    margin-bottom: 20px;
+}
+
+#header-top > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-top > *{
+    border: 2px dashed black;
+    padding: 15px;
+}
+
+#header-top .logo, #header-top .login{
+    width: 20%;
+}
+
+#header-top .nav{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#header-bottom {
+    background-color: #00008B;
+    min-height: 500px;
+    padding: 60px 0;
+}
+
+#hero{
+    max-width: 900px;
+    min-height: 400px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
 }
