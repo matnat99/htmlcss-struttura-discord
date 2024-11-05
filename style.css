@@ -33,6 +33,10 @@ section {
     border: 1px dashed black;
 }
 
+#dark-gray{
+    background-color: #23272A;
+}
+
 /*HEADER*/
 header {
     background-color: #ADD8E6;
@@ -63,6 +67,10 @@ header {
 #header-top .nav{
     flex-grow: 1;
     text-align: center;
+}
+
+#header-top .login{
+    text-align: right;
 }
 
 #header-bottom {
@@ -113,10 +121,6 @@ header {
     margin: 0 auto;
 }
 
-#dark-section{
-    background-color: #23272A;
-}
-
 #column-box{
     display: flex;
     min-height: 500px;
@@ -132,4 +136,27 @@ header {
     width: calc(70% / 4);
     background-color: #20B2AA;
     border: 1px dashed black;
+}
+
+/* FOOTER */
+footer{
+    background-color: #23272A;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin: 0 auto;
+    min-height: 60px;
+    border-top: 1px solid white;
+}
+
+.container.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    padding: 20px 0;
+}
+
+.footer > *{
+    border: 2px dashed black;
+    padding: 10px;
+    background-color: #FFB6C1;
 }
