@@ -14,7 +14,7 @@
 section {
     min-height: 616.6px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px;
 }
 
 .gray{
@@ -46,13 +46,9 @@ header {
 
 #header-top{
     display: flex;
+    justify-content: space-between;
     background-color: #DAA520;
     margin-bottom: 20px;
-}
-
-#header-top > .container {
-    display: flex;
-    justify-content: space-between;
 }
 
 #header-top > *{
@@ -93,20 +89,20 @@ header {
 /* SECTION 1 */
 #box-one {
     display: flex;
-    min-height: 500px;
+    min-height: 520px;
 }
 
 /* SECTION 2 */
 #box-two{
     display: flex;
     flex-direction: row-reverse;
-    min-height: 500px;
+    min-height: 520px;
 }
 
 /* SECTION 3 */
 #box-three {
     display: flex;
-    min-height: 500px;
+    min-height: 520px;
 }
 
 /* SECTION 4 */
@@ -121,6 +117,7 @@ header {
     margin: 0 auto;
 }
 
+/* Section 5 */
 #column-box{
     display: flex;
     min-height: 500px;
@@ -148,15 +145,15 @@ footer{
     border-top: 1px solid white;
 }
 
-.container.footer{
+.footer.container {
     display: flex;
     justify-content: space-between;
     background-color: #7FFFD4;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .footer > *{
     border: 2px dashed black;
-    padding: 10px;
+    padding: 6px;
     background-color: #FFB6C1;
 }
